@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'bookmarks/new'
+  get 'bookmarks/create'
+  get 'bookmarks/update'
+  get 'bookmarks/edit'
+  get 'bookmarks/destroy'
+  get 'bookmarks/index'
+  get 'bookmarks/show'
   get 'lists/new'
   get 'lists/create'
   get 'lists/update'
