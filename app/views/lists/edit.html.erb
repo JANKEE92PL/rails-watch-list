@@ -1,2 +1,16 @@
 <h1>Lists#edit</h1>
 <p>Find me in app/views/lists/edit.html.erb</p>
+
+
+<section class="album py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <%= simple_form_for(@list) do |f| %>
+          <%= f.text_field :name %>
+          <%= f.submit %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
