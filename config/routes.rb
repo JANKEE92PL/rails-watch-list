@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'lists/new'
+  get 'lists/create'
+  get 'lists/update'
+  get 'lists/edit'
+  get 'lists/destroy'
+  get 'lists/index'
+  get 'lists/show'
   get 'movies/new'
   get 'movies/create'
   get 'movies/update'
