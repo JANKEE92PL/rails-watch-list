@@ -12,6 +12,11 @@
 </head>
 
 <body>
+<nav class="navbar navbar-light bg-light navbar-lewagon navbar-collapse">
+  <div class="container-fluid">
+    <%= link_to image_tag("logo.svg"), root_path, class: "navbar-brand img navbar-collapse" %>
+  </div>
+</nav>
 <%= yield %>
 </body>
 </html>
