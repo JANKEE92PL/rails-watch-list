@@ -20,7 +20,4 @@ Rails.application.routes.draw do
   get 'movies/destroy'
   get 'movies/index'
   get 'movies/show'
-  resources :movies
-  resources :lists
-  resources :bookmarks
 end
